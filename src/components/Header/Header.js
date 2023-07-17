@@ -39,7 +39,7 @@ const Header = () => {
     <>
       <div className="header">
         <Link to={"/"} onClick={homeclickHandler}>
-          <div className="logo">Movies App</div>
+          <div className="logo">CineFlix</div>
         </Link>
         <div className="search-bar">
           <form onSubmit={submitHandler}>

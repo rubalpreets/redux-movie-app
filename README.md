@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# CineFlix: Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Preview App](https://rubalreduxmovieapp.netlify.app/)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+I developed a movie app using React.js, Axios, React Router, React Redux Toolkit, and Sass. The app features a homepage that displays movies and shows fetched from the OMDB API. It incorporates a search functionality where users can input a search query, and the app fetches relevant results from the OMDB API. Clicking on an individual movie card navigates the user to the movie details page, which is made possible by React Router. The app's state management is handled using React Redux Toolkit, ensuring efficient and predictable state updates throughout the application. The styling of the app is implemented using Sass, providing a flexible and modular approach to styling components. (UI is designed for desktop only)
 
-### `npm start`
+## Key Technologies and Tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **`React.js`**: Leveraged the React.js library for building the user interface components and managing the application's state.
+- **`Axios`**: Utilized Axios to handle HTTP requests and fetch data from the OMDB API.
+- **`React Router`**: Implemented React Router to enable client-side routing and navigate between different pages of the movie app.
+- **`React Redux Toolkit`**: Utilized React Redux Toolkit to manage the state of the React app, ensuring efficient and scalable state management.
+- **`Sass`**: Utilized Sass to create modular and reusable stylesheets, providing a flexible and maintainable approach to styling the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+- **`Movie and Show Listings`**: Displayed a collection of movies and shows on the homepage, fetching data from the OMDB API and rendering the content dynamically.
+- **`Search Functionality`**: Implemented a search feature that allows users to input search queries, fetch relevant results from the OMDB API, and display them in real-time.
+- **` Movie Details Page`**: Created a dedicated page to display detailed information about a selected movie, enabling users to navigate to the details page by clicking on a movie card.
+- **`React Router Navigation`**: Leveraged React Router to enable smooth navigation between different pages of the movie app.
+- **`React Redux Toolkit State Management`**: Utilized React Redux Toolkit to manage the application's state, ensuring a predictable and scalable state management approach.
+- **`Sass Styling`**: Implemented Sass to create modular and reusable stylesheets, enabling a flexible and maintainable approach to styling components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Enhancements
 
-### `npm run build`
+The project can be expanded by implementing additional features and functionality, such as:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **`User Authentication`**: Adding user authentication and authorization to enable personalized experiences and user-specific functionality.
+- **`Favorite Movies/Shows`**: Allowing users to mark movies and shows as favorites and implementing a "favorites" page to view and manage their saved content.
+- **`Ratings and Reviews`**: Enabling users to rate and review movies and shows, and displaying aggregated ratings and reviews for each title.
+- **`Additional API Integrations`**: Integrating other external APIs to provide additional data and enhance the movie app's functionality.
+- **`Advanced Search Options`**: Expanding the search functionality to include advanced search options like filtering by genre, year, or rating.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By developing this movie app, I have demonstrated my proficiency in front-end development using React.js, along with integrating external APIs, implementing search functionality, managing the application's state using React Redux Toolkit, and utilizing Sass for modular and maintainable styling. This project showcases my ability to create interactive and dynamic web applications, incorporating essential features for browsing and exploring movie content, while adhering to modern front-end development practices.
