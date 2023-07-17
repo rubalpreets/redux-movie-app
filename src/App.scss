@@ -1,0 +1,30 @@
+@import "./common/colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "sans-serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $primary-color;
+}
+
+.container {
+  margin: 0 40px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

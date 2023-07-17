@@ -1,0 +1,15 @@
+@import "../../common/colors.scss";
+
+.loader-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+  .fa-clapperboard {
+    height: 200px;
+    color: $font-secondary;
+    flex-grow: 1;
+  }
+}
