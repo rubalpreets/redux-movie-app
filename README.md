@@ -1,6 +1,6 @@
 # CineFlix: Movie App
 
-[Preview App](https://rubalreduxmovieapp.netlify.app/)
+[View App](https://rubalreduxmovieapp.netlify.app/) (Ctrl + Click)
 
 ## Description
 
@@ -34,3 +34,5 @@ The project can be expanded by implementing additional features and functionalit
 - **`Advanced Search Options`**: Expanding the search functionality to include advanced search options like filtering by genre, year, or rating.
 
 By developing this movie app, I have demonstrated my proficiency in front-end development using React.js, along with integrating external APIs, implementing search functionality, managing the application's state using React Redux Toolkit, and utilizing Sass for modular and maintainable styling. This project showcases my ability to create interactive and dynamic web applications, incorporating essential features for browsing and exploring movie content, while adhering to modern front-end development practices.
+
+[View App](https://rubalreduxmovieapp.netlify.app/) (Ctrl + Click)
